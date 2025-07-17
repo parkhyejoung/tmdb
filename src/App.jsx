@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <h1>TMDB MOVIE</h1>
-    <BrowserRouter>
+    <BrowserRouter basename="tmdb">
       <Routes>
         <Route path="/" element={<MovieApp />} />
         {/* 접속한 주소 경로(path) 이거면 element에 작성된 컴포넌트를 실행하라. */}
